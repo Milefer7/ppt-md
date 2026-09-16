@@ -39,7 +39,7 @@
   --nju-bar-h: 78px;
   --nju-pad-x: 50px;
   --nju-pad-top: 113px;
-  --nju-body: 23px;
+  --nju-body: 22px;
   --nju-leading: 1.74;
 
   /* 图片高度上限，详见下方「图片」一节。
@@ -157,9 +157,9 @@ section:not(:has(h1)) {
 h2 {
   color: var(--nju-ink-strong);
 
-  font-size: 32px;
-  font-weight: 400;
-  line-height: 1.4;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 1.45;
 
   margin: 0 0 6px 0;
 }
@@ -176,17 +176,17 @@ h1 + h2 {
 h3 {
   color: var(--nju-ink-strong);
 
-  font-size: 27px;
-  font-weight: 400;
+  font-size: 25px;
+  font-weight: 700;
 
-  margin: 22px 0 10px 0;
+  margin: 20px 0 8px 0;
 }
 
 h4,
 h5,
 h6 {
   color: var(--nju-ink-strong);
-  font-weight: 400;
+  font-weight: 700;
 }
 
 /* -------------------------------------------------------------- 正文 */
