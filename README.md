@@ -124,6 +124,8 @@ start "" "http://localhost:8080/<deck 文件名>"   rem 直接打开 deck 本身
 
 导出**不**在脚本里，需要时自己敲 marp：
 
+> `marp ".\presentation.md --theme ".\C:\Users\hello\myRespository\ppt-md\themes\nju.css" --pptx --allow-local-files`
+
 ```bat
 marp "decks\xxx.md" --theme themes\nju.css --pptx          --allow-local-files
 marp "decks\xxx.md" --theme themes\nju.css --pdf           --allow-local-files
